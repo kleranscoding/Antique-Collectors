@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Antique Collectors</title>
+    <meta charset='utf-8'>
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+    <link rel = "stylesheet" href = "./styles/styles.css">
+    <link rel = "stylesheet" href = "./styles/index.css">
+    <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+  </head>
+
+  <body>
+    
+    <header role="banner">
+      <nav role="navigation">
+        <span class="hamburger">
+          <i class='fa fa-bars'></i>
+        </span>
+        <div class="toggle-site-menu">
+          <span class="close-btn">&times;</span>
+          <a class="nav-item" href="/">Home</a>
+          <a class="nav-item" href="/about">About Us</a>
+          <a class="nav-item" href="/subscribe">Get Newsletter</a>
+        </div>
+        <div>
+          <span class="hamburger">&#9776;</span>
+          <span class="logo"> Gray & Co. </span>
+        </div>
+       
+        <span ></span>
+      </nav>
+    </header>
+
+    <main role="main">
+      <h3 class="title"></h3>
+      <section>
+        <article role="article">
+          <img class="img-home" src="./assets/clock.png" alt="antique pocket watch"/>
+          <p class='img-text'>Timepieces</p>
+        </article>
+        <article role="article">
+          <img class="img-home" src="./assets/Camera.png" alt="antique black camera"/>
+          <p class='img-text'>Cameras</p>
+        </article>
+        <article role="article">
+          <img class="img-home" src="./assets/bowls.png" alt="antique ceramic bowls"/>
+          <p class='img-text'>Kitchenware</p>
+        </article>
+        <article role="article">
+          <img class="img-home" src="./assets/lighting.png" alt="antique crystal chandelier"/>
+          <p class='img-text'>Lighting</p>
+        </article>
+        
+      </section>
+      
+    </main>
+
+    <footer role="contentinfo">
+      <div class="footer-text">
+        <a href="/about#contact">
+            Contact Us
+        </a>
+        <p>&copy; 2019 Gray & Co.</p>
+      </div>
+    </footer>
+
+    <button id="top_btn" title="Go to top">&#x5e;</button>
+    
+    <div class="modal-navbar"></div>
+    <div class="modal-signup">
+      <span class="close-modal-signup">&times;</span>
+      <div class="circle-signup">
+          <h4 class="signup-title">OH HEY!</h4>
+          <p class="signup-greet">We're glad you're back!</p>
+          <p class="signup-text">Get sweet deals, photos and VIP invites delivered to your inbox via our newsletter.</p>
+          <div id="to_subscribe">Subscribe</div>
+        <!-- <img class="signup" alt="" src="./assets/checkmark.png"></div> -->
+      </div>
+    </div>
+
+    <script src="./scripts/app.js"></script>
+    <script src="./scripts/index.js"></script>
+  
+  </body>
+</html>

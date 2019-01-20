@@ -1,0 +1,30 @@
+
+.title {
+    font-size: 24px;
+    margin: 15px auto!important;
+    font-weight: 400;
+}
+
+.img-boxes {
+    height: 250px;
+    width: 250px;
+}
+
+#contact {
+    margin: 0 auto;
+    width: 200px;
+    border-top: 2px solid #282d4a;
+    border-bottom: 2px solid #282d4a;
+}
+
+aside {
+    margin-top: 100px;
+    margin-bottom: 50px; 
+}
+
+.company {
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+
