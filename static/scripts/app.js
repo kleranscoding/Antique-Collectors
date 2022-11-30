@@ -43,7 +43,7 @@ document.getElementsByClassName("hamburger")[0].addEventListener('click',openSid
 document.getElementsByClassName("close-btn")[0].addEventListener('click',closeSideNav);
 
 logo.addEventListener('click',function(){
-    window.location.href="/";
+    window.location.href="index.html";
 });
 
 window.addEventListener("click",function(event){

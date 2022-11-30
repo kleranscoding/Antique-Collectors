@@ -6,8 +6,8 @@
     <meta name = "viewport" content = "width = device-width, initial-scale = 1">
     <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>  
     <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel = "stylesheet" href = "./styles/styles.css">
-    <link rel = "stylesheet" href = "./styles/about.css">
+    <link rel = "stylesheet" href = "static/styles/styles.css">
+    <link rel = "stylesheet" href = "static/styles/about.css">
   </head>
 
   <body>
@@ -16,9 +16,9 @@
       <nav role="navigation">
         <div class="toggle-site-menu">
           <span class="close-btn">&times;</span>
-          <a class="nav-item" href="/">Home</a>
-          <a class="nav-item" href="/about">About Us</a>
-          <a class="nav-item" href="/subscribe">Get Newsletter</a>
+          <a class="nav-item" href="index.html">Home</a>
+          <a class="nav-item" href="about.html">About Us</a>
+          <a class="nav-item" href="subscribe.html">Get Newsletter</a>
         </div>
         <div>
           <span class="hamburger">&#9776;</span>
@@ -30,7 +30,7 @@
     </header>
 
     <main role="main">
-      <img style="height: 250px;width: 250px;"class="img-boxes" src="./assets/boxes.png" alt="antique filing boxes"/>
+      <img style="height: 250px;width: 250px;"class="img-boxes" src="static/assets/boxes.png" alt="antique filing boxes"/>
         <article role="article">
           <h4 class="title">Welcome to Gray & Co.</h4>
           <p>
@@ -42,33 +42,35 @@
               With more than 200 items, we’ll help you find exactly what you’re looking for.
           </p>
         </article>
+
+        <aside role="complementary">
+          <div id="contact">
+            <p>
+              <span class="company">
+                Gray & Co.
+              </span>
+              <br>
+              (415) 926 - 0721
+              <br>
+              501 Pine Street
+            </p>
+            <p>
+              <b>Shop hours:</b>
+              <br>
+              M - F  12 p.m. - 7p.m.
+              <br>
+              Sa, Su 10 a.m. - 8p.m.
+            </p>
+          </div>
+        </aside>
       
     </main>
 
-    <aside role="complementary">
-      <div id="contact">
-        <p>
-          <span class="company">
-            Gray & Co.
-          </span>
-          <br>
-          (415) 926 - 0721
-          <br>
-          501 Pine Street
-        </p>
-        <p>
-          <b>Shop hours:</b>
-          <br>
-          M - F  12 p.m. - 7p.m.
-          <br>
-          Sa, Su 10 a.m. - 8p.m.
-        </p>
-      </div>
-    </aside>
+    
 
     <footer role="contentinfo">
       <div class="footer-text">
-        <a href="/about#contact">Contact Us</a>
+        <a href="about.html#contact">Contact Us</a>
         <p>&copy; 2019 Gray &amp; Co.</p>
       </div>
     </footer>
@@ -76,7 +78,7 @@
     <button id="top_btn" title="Go to top">&#x5e;</button>
     <div class="modal-navbar"></div>
 
-    <script src="./scripts/app.js"></script>
+    <script src="static/scripts/app.js"></script>
     
   
   </body>
