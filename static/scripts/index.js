@@ -21,5 +21,5 @@ closeModalSignup.addEventListener('click',function(){
 });
 
 subscribeBtn.addEventListener('click',function(){
-    window.location.href="/subscribe";
+    window.location.href="subscribe.html";
 });
