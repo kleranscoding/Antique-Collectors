@@ -1,0 +1,31 @@
+.imgBoxes {
+  height: 250px;
+  width: 250px;
+}
+
+.title {
+  font-size: 24px;
+  margin: 15px auto !important;
+  font-weight: 400;
+}
+
+.aboutText {
+  padding: 0 10px;
+}
+
+.company {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.aside {
+  margin-top: 100px;
+  margin-bottom: 50px; 
+}
+
+.contact {
+  margin: 0 auto;
+  width: 200px;
+  border-top: 2px solid #282d4a;
+  border-bottom: 2px solid #282d4a;
+}
