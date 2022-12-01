@@ -44,7 +44,13 @@ const articlesList = [
 const ArticleItem = ({ item }: { item: IArticleItem }) => {
   return (
     <article role='article' className={styles.article}>
-      <Image alt={item.alt} className={styles.imgHomeItem} src={item.src} />
+      <Image 
+        alt={item.alt} 
+        className={styles.imgHomeItem} 
+        src={item.src} 
+        loading='lazy'
+        placeholder='blur'
+      />
       <p className={styles.imgItemText}>{item.text}</p>
     </article>
   )

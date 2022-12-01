@@ -31,7 +31,13 @@ const Subscribe: NextPage = () => {
         <title>Antique Collecters | Subscribe</title>
       </Head>
       <main role='main'>
-        <Image className={styles.imgSpam} src={SpamImg} alt='we will not spam you' />
+        <Image 
+          className={styles.imgSpam} 
+          src={SpamImg} 
+          alt='we will not spam you' 
+          loading='lazy'
+          placeholder='blur'
+        />
         <h3 className={styles.subcscribeTitle}>
           In the newsletter you&apos;ll get photos of rare collectibles + VIP event invites
         </h3>
