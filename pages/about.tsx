@@ -14,7 +14,13 @@ const About: NextPage = () => {
         <title>Antique Collecters | About</title>
       </Head>
       <main role='main'>
-        <Image className={styles.imgBoxes} src={BoxesImg} alt='antique filing boxes' />
+        <Image 
+          className={styles.imgBoxes} 
+          src={BoxesImg} 
+          alt='antique filing boxes' 
+          loading='lazy' 
+          placeholder='blur'
+        />
         <article role='article' className={styles.aboutText}>
           <h3 className={styles.title}>Welcome to Gray & Co.</h3>
           <p>
