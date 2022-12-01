@@ -18,13 +18,13 @@ const About: NextPage = () => {
         <article role='article' className={styles.aboutText}>
           <h3 className={styles.title}>Welcome to Gray & Co.</h3>
           <p>
-            Hello! We're thrilled you're here.
+            Hello! We&apos;re thrilled you're here.
             <br />
-            We're luxury antique shop near SoMa that specializes in homegoods.
+            We&apos;re luxury antique shop near SoMa that specializes in homegoods.
             We hand select all of our items from international sellers in England, Ireland and France.
           </p>
           <p>
-            With more than 200 items, we'll help you find exactly what you're looking for.
+            With more than 200 items, we&apos;ll help you find exactly what you&apos;re looking for.
           </p>
         </article>
         <aside role='complementary' className={styles.aside}>
