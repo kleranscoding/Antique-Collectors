@@ -18,7 +18,7 @@ const About: NextPage = () => {
         <article role='article' className={styles.aboutText}>
           <h3 className={styles.title}>Welcome to Gray & Co.</h3>
           <p>
-            Hello! We&apos;re thrilled you're here.
+            Hello! We&apos;re thrilled you&apos;re here.
             <br />
             We&apos;re luxury antique shop near SoMa that specializes in homegoods.
             We hand select all of our items from international sellers in England, Ireland and France.
