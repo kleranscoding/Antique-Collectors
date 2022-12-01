@@ -33,7 +33,7 @@ const Subscribe: NextPage = () => {
       <main role='main'>
         <Image className={styles.imgSpam} src={SpamImg} alt='we will not spam you' />
         <h3 className={styles.subcscribeTitle}>
-          In the newsletter you'll get photos of rare collectibles + VIP event invites
+          In the newsletter you&apos;ll get photos of rare collectibles + VIP event invites
         </h3>
         <SubscribeEnd />
       </main>
