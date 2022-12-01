@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding-top: 60px;
+  font-weight: 400;
+  text-align: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+main {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.page-container {
+  position: relative;
+  min-height: 100%;
+}
+
+.modal-navbar {
+  padding: 80px;
+  width: 100%;
+  height: 100%;
+  position: fixed; 
+  z-index: 5;
+  background-color: rgba(0,0,0,0.4);
+  top: 0;
+  left: 260px;
+}
+
+@media (prefers-color-scheme: light) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: #000000;
+    background: #ffffff;
+  }
+}

@@ -1,0 +1,82 @@
+.header {
+  background-color: #fefefe;
+  border-bottom: 1px grey solid;
+  box-shadow: 0 3px 3px grey;
+  height: 60px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navHeader {
+  position: relative;
+  width: 100%;
+}
+
+.brand {
+  border-left: 2px solid #282d4a;
+  border-right: 2px solid #282d4a;
+  color: #282d4a;
+  font-size: 2rem;
+  left: calc(50% - 85px);
+  max-width: 180px;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  position: absolute;
+  text-align: center;
+}
+
+.brand:hover {
+  cursor: pointer;
+}
+
+.hamburger {
+  color: #282d4a;
+  font-size: 2rem;
+  left: 0;
+  padding-left: 10px;
+  position: absolute;
+  top: 5px;
+}
+
+.hamburger:hover,
+.closeBtn:hover {
+  cursor: pointer;
+}
+
+.toggleNavMenu {
+  background-color: #3e425c;
+  /* display: none; */
+  height: 100%;
+  left: 0;
+  overflow-x: hidden;
+  position: fixed;
+  top: 0;
+  transition: 0.5s;
+  width: 260px;
+  z-index: 1000;
+}
+
+.closeBtn,
+.navItem {
+  font-size: 30px;
+  padding-left: 15px;
+  color: #fa7268;
+  display: block;
+  transition: 0.3s;
+  text-align: left;
+  height: 75px;
+}
+
+.navItem {
+  border-bottom: 1px solid #fa7268;
+  padding-bottom: 2px;
+  padding-top: 30px;
+}
+
+.closeBtn {
+  text-align: right;
+  padding-right: 10px;
+}

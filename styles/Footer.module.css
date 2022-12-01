@@ -1,0 +1,23 @@
+.footer {
+  background-color: #282d4a;
+  bottom: 0;
+  height: 80px;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.footerText {
+  padding: 10px;
+  text-align: center;
+}
+
+.footerText a,
+.footerText p {
+  color: #fa7268;
+  
+}
+
+.footerText a {
+  font-size: 20px;
+}
