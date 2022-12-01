@@ -2,23 +2,10 @@
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 
-import { Header, Footer } from '../components'
+
+import { Header, Footer, NavMenuModal } from '../components'
 import { NavMenuProvider } from '../context'
 import '../styles/globals.css'
-
-import { useToggleNavMenu } from '../hooks'
-
-// nav menu modal popup
-const NavMenuModal = () => {
-
-  const { isMenuOpen, closeMenu } = useToggleNavMenu()
-
-  if (!isMenuOpen) return null
-
-  return (
-    <div className='modal-navbar' onClick={closeMenu} />
-  )
-}
 
 
 function App({ Component, pageProps }: AppProps) {
