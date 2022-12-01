@@ -41,42 +41,6 @@
   top: 5px;
 }
 
-.hamburger:hover,
-.closeBtn:hover {
+.hamburger:hover {
   cursor: pointer;
-}
-
-.toggleNavMenu {
-  background-color: #3e425c;
-  /* display: none; */
-  height: 100%;
-  left: 0;
-  overflow-x: hidden;
-  position: fixed;
-  top: 0;
-  transition: 0.5s;
-  width: 260px;
-  z-index: 1000;
-}
-
-.closeBtn,
-.navItem {
-  font-size: 30px;
-  padding-left: 15px;
-  color: #fa7268;
-  display: block;
-  transition: 0.3s;
-  text-align: left;
-  height: 75px;
-}
-
-.navItem {
-  border-bottom: 1px solid #fa7268;
-  padding-bottom: 2px;
-  padding-top: 30px;
-}
-
-.closeBtn {
-  text-align: right;
-  padding-right: 10px;
 }
